@@ -1,0 +1,32 @@
+
+#label1{
+    font-size:50px
+}
+/* Dealing with the Powerline */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Fira Code';
+}
+.powerline{
+    display: flex;
+    justify-content: left;
+    margin-top: 0.5rem;
+}
+.powerline__component1{
+    background-color: rgb(180, 109, 3);
+    font-size: 0.75rem;
+    font-weight: 500;
+    position: relative;
+    padding: 3px 1.25rem;
+    margin-right: -14px;
+    cursor: pointer;
+    clip-path: polygon(0% 0%, calc(100% - 14px) 0%, 100% 50%, calc(100% - 14px) 100%, 100% 100%, 0% 100%, 14px 50%);
+
+    }    /*AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
+body {
+    background-color: black;
+}
+.lettercolor{
+    color: antiquewhite; 
+}
